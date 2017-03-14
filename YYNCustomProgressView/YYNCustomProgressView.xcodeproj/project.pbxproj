@@ -13,6 +13,7 @@
 		B8EB69DC1E77B6C100AA6F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8EB69DA1E77B6C100AA6F1B /* Main.storyboard */; };
 		B8EB69DE1E77B6C100AA6F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EB69DD1E77B6C100AA6F1B /* Assets.xcassets */; };
 		B8EB69E11E77B6C100AA6F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8EB69DF1E77B6C100AA6F1B /* LaunchScreen.storyboard */; };
+		B8EB69EA1E77B82C00AA6F1B /* YYNCustomProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EB69E91E77B82C00AA6F1B /* YYNCustomProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B8EB69DD1E77B6C100AA6F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8EB69E01E77B6C100AA6F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8EB69E21E77B6C100AA6F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8EB69E81E77B82C00AA6F1B /* YYNCustomProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNCustomProgressView.h; sourceTree = "<group>"; };
+		B8EB69E91E77B82C00AA6F1B /* YYNCustomProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNCustomProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		B8EB69D01E77B6C100AA6F1B /* YYNCustomProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				B8EB69E81E77B82C00AA6F1B /* YYNCustomProgressView.h */,
+				B8EB69E91E77B82C00AA6F1B /* YYNCustomProgressView.m */,
 				B8EB69D41E77B6C100AA6F1B /* AppDelegate.h */,
 				B8EB69D51E77B6C100AA6F1B /* AppDelegate.m */,
 				B8EB69D71E77B6C100AA6F1B /* ViewController.h */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8EB69D91E77B6C100AA6F1B /* ViewController.m in Sources */,
+				B8EB69EA1E77B82C00AA6F1B /* YYNCustomProgressView.m in Sources */,
 				B8EB69D61E77B6C100AA6F1B /* AppDelegate.m in Sources */,
 				B8EB69D31E77B6C100AA6F1B /* main.m in Sources */,
 			);
